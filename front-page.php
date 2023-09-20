@@ -63,6 +63,7 @@ if($messageSpecial){
 	display: flex;
 	width: 100%;
 	color: black;
+	color: violet;
 }
 
 .podzimniAkceBloc > div {
