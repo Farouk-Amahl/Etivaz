@@ -1,0 +1,40 @@
+/*-----------------nemu autres-------------------*/
+
+#menu-autres {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#menu-autres ul {
+    display: inline-block;
+    font-variant: small-caps;
+    padding-right: 1em;
+}
+
+#menu-autres ul li {
+    display: inline-block;
+}
+
+#menu-autres ul.menu-utils li {
+    font-variant: small-caps;
+    width: 20px;
+}
+
+#menu-autres ul.menu-utils li a {
+    color: rgb(70, 58, 55);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.5em 0;
+    width: 20px;
+    display: inline-block;
+}
+
+#menu-autres ul.menu-utils li a:hover i {
+    color: #FBECDE;
+}
+
+#menu-autres ul li.current-lang a {
+	color: #FBECDE;
+	background-color: rgb(70, 58, 55);
+}

@@ -1,0 +1,19 @@
+/* Étivaz opening-hours
+   v1.0
+   License: none (public domain)
+*/
+
+.opening-hours {
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+    font-variant: small-caps;
+    color: rgb(70, 58, 55);
+    font-size: 14px;
+    padding: 0.5em 0;
+	text-align: left;
+}
+
+.opening-hours th.day-name {
+	font-weight: 200;
+}

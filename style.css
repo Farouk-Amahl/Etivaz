@@ -1,0 +1,310 @@
+/*
+Theme Name: Étivaz
+Text Domain: Étivaz
+Version: 1.0
+Description: Le thème de la Fromagerie Fransýr
+Tags: fromages, responsive
+Author: Fransýr
+Author URI: http://fransyr.cz
+*/
+
+
+body {
+	font-family: 'Sorts Mill Goudy', serif;
+	background-color: #FFFBF7;
+	color: rgb(70, 58, 55);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+p {
+	padding: 1em 1em 1em 0;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+}
+
+p a {
+	color: #f96125;
+}
+
+strong {
+	font-weight: 900;
+}
+
+.no-link {
+	pointer-events: none;
+	cursor: default;
+}
+
+.ombre {
+	box-shadow: 0px 0px 4px 3px #cdc3b863;
+}
+
+.etivaz-transition {
+	transition: all 1s ease 0s;
+}
+
+.etivaz-date {
+    font-weight: 900;
+    color: green;
+    font-size: 1.5em;
+}
+
+.etivaz-carre {
+	padding-bottom: 100%;
+}
+
+.etivaz-signature {
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+.etivaz-hack-inline-space {
+	display: table; 
+	width: 100%; 
+	table-layout: fixed; 
+	word-spacing: -2em;	
+}
+
+.etivaz-corps {
+    width: 80%;
+    max-width: 1220px;
+    margin: auto;
+	padding: 2em 1em;
+}
+
+section.etivaz-section {
+	// font-size: 0;
+}
+
+section.etivaz-section > header {
+	padding: 1em 0;
+}
+
+.etivaz-separateur {
+	width: 100%;
+	height: 1em;
+	border-top: 1px solid rgb(227, 217, 195);
+	border-bottom: 1px solid rgb(227, 217, 195);
+}
+
+.etivaz-separateur-simple {
+	width: 100%;
+	border-top: 1px solid rgb(227, 217, 195);
+}
+
+.etivaz-inner {
+	padding: 1em;
+	display: block;
+}
+
+.etivaz-un-tiers {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.presse .etivaz-image {
+	height: 250px;
+	overflow: hidden;
+}
+
+.presse header {
+    height: 100px;
+    padding: 1em;
+    background: #fff;
+}
+
+.etivaz-article {
+    padding: 1em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.etivaz-article-texte {
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+    height: 434px;
+    position: relative;
+}
+
+.etivaz-deux .etivaz-article-texte header,
+.etivaz-deux .etivaz-article-texte article,
+.etivaz-deux .etivaz-article-texte footer {
+	width: 100%;
+}
+
+.etivaz-article-image {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	padding-bottom: 434px;
+	background-size: cover;
+	background-position-x: center;
+	box-shadow: inset 1px 1px 10px #463a37;
+	position: relative;
+}
+
+.etivaz-moitie {
+
+}
+
+.etivaz-image {
+	/* border: 1px solid rgb(227, 217, 195); */
+}
+
+.etivaz-image img {
+	width: 100%;
+	height: auto;
+}
+
+.etivaz-etiquette {
+    width: 25%;
+    border-left: 1px solid rgb(227, 217, 195);
+    border-bottom: 1px solid rgb(227, 217, 195);
+    padding: 1em;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.etivaz-etiquette:firstChild() {
+    width: 25%;
+    border-left: none;
+    padding: 1em;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.etivaz-etiquette-texte {
+	padding: 1em;
+	height: 200px;
+}
+
+.etivaz-etiquette-texte h2 {
+	font-size: 24px;
+	padding: 0;
+}
+
+.etivaz-wrap-etiquette {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 3px #cdc3b863;
+    display: block;
+}
+
+.etivaz-etiquette .etivaz-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+.etivaz-etiquette .etivaz-image img {
+   /*min-width: 100%;
+    min-height: 100%;
+	*/
+}
+
+.etivaz-titre-etiquette {
+	width: 100%;
+	padding: 1em 0;
+	min-height: 2em;
+}
+
+.etivaz-banniere {
+    padding-top: 1em;
+}
+
+.etivaz-banniere-inner {
+    padding: 1em; 
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 350px;
+}
+
+.etivaz-produit {
+	position: relative;
+}
+
+.etivaz-produit header {
+    position: absolute;
+    color: #fff;
+    top: 1em;
+    left: 1em;
+}
+
+.etivaz-footer {
+    display: inline;
+    width: 100%;
+	height: auto;
+    border-bottom: 1px solid rgb(253, 235, 194);
+    border-top: 1px solid rgb(227, 217, 195);
+    display: block;
+    padding: 0.5em 0;
+    box-shadow: 0px 5px 5px 1px rgba(70, 58, 55, 0.3);
+    background-color: #FBECDE;
+}
+
+/*---------------magasin-------------------*/
+
+.etivaz-magasin header {
+    background-size: auto 100%;
+    height: 260px;
+    padding: 1em;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.etivaz-magasin header h1,
+.etivaz-magasin header p {
+    width: 30%;
+}
+
+.etivaz-magasin .etivaz-infos > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.etivaz-magasin div.etivaz-infos-carte {
+	width: calc(33.33% - 2px);
+	border-left: 1px solid rgb(227, 217, 195);
+	border-right: 1px solid rgb(227, 217, 195);
+}
+
+.etivaz-magasin div.etivaz-bloc-info {
+	padding: 1em;
+	width: calc(33.33% - 2em);
+}
+
+.etivaz-quand {
+	text-align: right;
+}
+
+.etivaz-quand span {
+    width: 150px;
+    display: inline-block;
+}
+
+.etivaz-magasin .etivaz-infos p {
+	padding: .5em 0;
+}
+
+.gm-style .place-card-large {
+    display: none;
+}

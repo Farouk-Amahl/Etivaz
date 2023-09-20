@@ -1,0 +1,19 @@
+/*-------------outil de tri------------------*/
+
+.etivaz-tri {
+
+	padding: 1em 0;
+
+}
+
+.etivaz-select-outil-tri {
+	padding: .5em 1em;
+	border-radius: 10px;
+	border-block-style: none;
+	box-shadow: none;
+	border: 1px solid #e3d9c3;
+	width: 250px;
+	background-color: #FBECDE;
+	color: #463a37;
+	-webkit-appearance: none;
+}

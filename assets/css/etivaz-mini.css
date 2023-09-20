@@ -1,0 +1,127 @@
+/*----------mobil---------*/
+
+@media only screen and (max-width: 600px) {
+	/*header*/
+	header.etivaz-header {
+		min-height: 0px;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		height: 4em;
+	}
+	.etivaz_logo {
+		text-align: left;
+		padding: 0 1em;
+		border-bottom: 1px solid #b9a59a;
+		height: 100%;
+		line-height: 6em;
+		width: 100%;
+	}
+	.etivaz_logo a.logo-etivaz {
+		width: 75px;
+	}
+	/*menus*/
+	.etivaz-space-menu {
+		height: 4em;
+	}
+	header.etivaz-header nav#menu-premier, #menu-autres {
+		display: none;
+	}
+	#menu-mobil {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	#menu-mobil li {
+		background-color: #fffbf7;
+		padding: 0 .5em;
+		text-align: right;
+		border-left: 1px solid #b9a59a;
+		border-bottom: 1px solid #b9a59a;
+	}
+	#hamburger {
+		padding: .5em;
+		text-align: right;
+		font-size: 1.9em;
+	}
+	.menu-mobil {
+		display: none;
+	}
+		
+	/*corps*/
+	.etivaz-corps {
+		width: 100%;
+		padding: 0;
+	}
+	/*blocks*/
+	#etivaz-slider {
+		display: none;
+	}
+	.etivaz-deux {
+		width: calc(100% - 1em);
+		padding-right: 0;
+	}
+	.etivaz-un {
+		width: calc(100% - 2em);
+		border-top: 1px solid rgb(227, 217, 195);
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	.etivaz-etiquette {
+		width: 100%;
+	}
+	.etivaz-article-image {
+		padding-bottom: 270px;
+	}
+	.etivaz-article-texte {
+		padding-bottom: 0px;
+	}
+	section.etivaz-section > header {
+		padding: 1em 0 1em 1em;
+	}
+	.etivaz-banniere-inner {
+		background-position: bottom;
+		background-size: 100%;
+	}
+	/*section magasin*/
+	.etivaz-magasin header {
+		height: 200px;
+		background-position: left;
+		color: #ffffff;
+	}
+	.etivaz-magasin header h1, .etivaz-magasin header p {
+		width: 100%;
+		text-shadow: 0px 0px 5px black;
+	}
+	.etivaz-magasin header p {
+		display: none;
+	}
+	.etivaz-magasin div.etivaz-bloc-info {
+		width: calc(100% - 2em);
+	}
+	.etivaz-magasin div.etivaz-infos-carte {
+		width: calc(100% - 2px);
+		border-top: 1px solid rgb(227, 217, 195);
+		border-bottom: 1px solid rgb(227, 217, 195);
+	}
+	.etivaz-quand {
+		text-align: left;
+	}
+	
+	/*produits*/
+	
+	.etivaz-tableau-donnees {
+		width: 40%;
+		left: 100%;
+		text-align: right;
+		top: 300px;
+		line-height: 120%;
+	}
+	
+	/*footer*/
+	.etivaz-footer {
+		width: calc(100% - 2em);
+		padding: 0.5em 1em;
+	}
+}

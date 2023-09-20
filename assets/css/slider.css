@@ -1,0 +1,56 @@
+/* Étivaz slider
+   v1.0
+   License: none (public domain)
+*/
+
+#etivaz-slider {
+    background-color: white;
+    height: 15vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 2em 4em;
+	color: #fff;
+	font-family: 'HammersmithOne', sans-serif;
+	font-size: 1em;
+}
+
+#etivaz-slider p {
+    font-family: 'Sorts Mill Goudy', serif;
+    padding: 0 0 0 48%;
+	font-size: .5em;
+}
+
+#etivaz-slider h2 {
+    font-size: 1em;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+}
+
+#etivaz-slider h1 {
+    font-size: 1.5em;
+    padding: .5em 0 .5em;
+}
+
+.etivaz-wrap-slider {
+    width: calc(48% - 1em );
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    height: 100%;
+    font-size: 2em;
+    padding: 0 .5em;
+}
+
+.etivaz-wrap-slider.right {
+	text-align: left;
+}
+
+.etivaz-wrap-slider h1 {
+	
+}
+
+.etivaz-wrap-slider img {
+	height: 100%;
+	vertical-align: top;
+}

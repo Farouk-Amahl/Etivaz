@@ -1,0 +1,54 @@
+.etivaz-article-texte {
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+    height: auto;
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.etivaz-tableau-donnees {
+    position: absolute;
+    bottom: 0;
+	width: 100%;
+	font-family: "hammersmithone";
+  font-size: 0.8em;
+}
+
+.etivaz-cellule-prix {
+    position: absolute;
+    font-size: 1em;
+    background-color: #fbecde;
+    padding: 1em;
+    border: 1px solid #e3d9c3;
+}
+
+.etivaz-cellule-autres {
+
+}
+
+.etivaz-cellule-haut, .etivaz-cellule-bas {
+	display: inline-block;
+}
+
+.etivaz-cellule-haut {
+    color: #a99b98;
+    width: 80px;
+}
+
+.etivaz-cellule-bas {
+
+}
+
+.etivaz-cellule-aop {
+    position: absolute;
+    bottom: -1em;
+    right: -1em;
+    width: 100px;
+    height: 100px;
+}
+
+.etivaz-cellule-aop img{
+	width: 100%;
+	height: 100%;
+}

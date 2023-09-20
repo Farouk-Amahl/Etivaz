@@ -1,0 +1,165 @@
+/* Étivaz header
+   v1.0
+   License: none (public domain)
+*/
+
+header.etivaz-header {
+    text-align: center;
+    background-color: #FFFBF7;
+    font-family: 'HammersmithOne', sans-serif;
+    position: relative;
+	min-height: 174px;
+	z-index: 2020;
+}
+
+header.etivaz-header nav#menu-premier {
+    display: inline;
+    width: 100%;
+    border-bottom: 1px solid rgb(253, 235, 194);
+    border-top: 1px solid rgb(227, 217, 195);
+    display: block;
+    /*padding: 1em 0;*/
+    box-shadow: 0px 5px 5px 1px rgba(70, 58, 55, 0.3);
+    background-color: #FBECDE;
+}
+
+#menu-premier:before,
+#menu-premier:after {
+        content: "";
+        display: table;
+}
+
+#menu-premier:after {
+        clear: both;
+}
+
+#menu-premier {
+        zoom:1;
+}
+
+header.etivaz-header ul.menu-premier li {
+    display: inline-block;
+    font-variant: small-caps;
+    width: 150px;
+	position: relative;
+}
+
+header.etivaz-header ul li a {
+    color: rgb(70, 58, 55);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 1em .5em;
+	transition: all 1s ease 0s;
+	display: block;
+}
+
+header.etivaz-header ul li a:hover {
+    color: #FBECDE;
+    background-color: rgb(70, 58, 55);
+}
+
+/* sub menu */
+
+header.etivaz-header ul.sub-menu {
+    /* max-height: 0;*/
+    width: 150px;
+    position: absolute;
+    background-color: #FBECDE;
+    /*overflow: hidden;*/
+    transition: .2s all 0s ease;
+	/*margin-top: 1em;*/
+	visibility: hidden;
+	opacity: 0;
+}
+
+header.etivaz-header .menu-item-has-children:hover > ul.sub-menu {
+	max-height: 500px;
+	border: 1px solid rgb(227, 217, 195);
+	border-top-width: 0;
+	opacity: 1;
+    visibility: visible;
+}
+
+header.etivaz-header ul.sub-menu a {
+    display: block;
+	border-top: 1px solid rgb(227, 217, 195);
+}
+
+header.etivaz-header ul.sub-menu ul.sub-menu {
+    left: 150px;
+	max-height: 500px;
+	top: 0;
+	width: 250px;
+}
+
+header.etivaz-header ul.sub-menu ul.sub-menu li {
+    width: 250px;
+}
+
+header.etivaz-header .menu-item-has-children > ul.sub-menu:hover ul.sub-menu {
+	max-height: 500px;
+	border: 1px solid rgb(227, 217, 195);
+	border-top-width: 0;
+}
+
+header.etivaz-header .menu-item-has-children ul.sub-menu:hover ul.sub-menu {
+	overflow: auto;
+}
+
+/*--------------------logo-----------------------*/
+
+.etivaz_logo {
+	text-align: center;
+	padding: 1.5em 0 .5em;
+	position: relative;
+}
+
+.etivaz_logo img {
+	width: 100%; 
+}
+
+.etivaz_logo a.logo-etivaz {
+    display: inline-block;
+    width: 165px;
+}
+
+/*----------------munster-----------------*/
+
+header.munster {
+    width: 100%;
+	z-index: 2020;
+}
+
+header.munster nav#menu-premier{
+    position: fixed;
+}
+
+header.munster .menu-premier,
+header.munster .etivaz_logo {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    padding: 0 1em;
+    max-width: 1220px;
+}
+
+header.munster .etivaz_logo a.logo-etivaz {
+    width: 70px;
+    padding: .2em 0 0 1em;
+    position: fixed;
+    z-index: 3000;
+}
+
+header.munster .etivaz_logo {
+    text-align: left;
+    height: 0;
+}
+
+header.munster .opening-hours,
+header.munster #menu-autres {
+    display: none;
+}
+
+#menu-mobil {
+	display: none;
+}

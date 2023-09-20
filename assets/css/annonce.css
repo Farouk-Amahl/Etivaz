@@ -1,0 +1,83 @@
+#messageSpecial {
+    //display: none;
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    background-color: #FFFBF7;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    top: 215px;
+    left: 50%;
+    margin-left: -225px;
+    transform: rotate(2deg);
+    border: 1px solid #655454;
+    z-index: 20;
+    padding: 1em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+#messageSpecial a {
+	color:red;
+	font-weight:900;
+}
+#messageSpecial .bordures {
+	width: 440px;
+	height: 290px;
+	border: .4em solid rgba(5,5,5,.5);
+	border-style: double;
+	text-align: center;
+}
+#messageSpecial .bordures p {
+	font-size: 1.5em;
+	padding: .5em;
+	line-height: 1.5em;
+}
+#messageSpecial .bordures pre {
+	font-size: 1.5em;
+	padding: .5em;
+	line-height: 1.3em;
+}
+#messageSpecial .bordures ul {
+    list-style-type:none;
+}
+#messageSpecial .bordures ul li {
+    font-size:1.5em;
+}
+#messageSpecial .entree {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+#messageSpecial .sortie {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+#rondMessage {
+	position:absolute;
+	width:30px;
+	height:30px;
+	top:0;
+	left:50%;
+	margin-left:-15px;
+	background-color: #FFFBF7;
+	text-align: center;
+	line-height:30px;
+}
+#rondMessage span {
+	border: 2px solid rgba(5,5,5,.5);
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	display: inline-block;
+	vertil-align: middle;
+	line-eight: 15px;
+	margin: 8px 0 0 0;
+}
+#BlancMessageSpecial {
+	position:absolute;
+	height:25px;
+	left:50%;
+	margin-left:-25px;
+	background-color: #FFFBF7;
+	bottom: 0;
+	width:50px;
+}
