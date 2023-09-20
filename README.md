@@ -1,0 +1,2 @@
+# Etivaz
+theme wordpress
