@@ -1,53 +1,53 @@
 /*----------Blocs Étivaz---------*/
 
 .etivaz-wrap-bloc {
-	padding-bottom: 1em;
-	display: inline-block;
-	width: 100%;
+  padding-bottom: 1em;
+  display: inline-block;
+  width: 100%;
 }
 
 .etivaz-bloc {
-	padding: 1em;
-	position: relative;
-	overflow: hidden;
-	border-bottom: 1px solid rgb(227, 217, 195);
+  padding: 1em;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(227, 217, 195);
 }
 
 .etivaz-bloc h2 {
-    line-height: 1.2em;
+  line-height: 1.2em;
 }
 
 .etivaz-bloc:last-child {
-	border-right: 1px solid rgb(227, 217, 195);
+  border-right: 1px solid rgb(227, 217, 195);
 }
 
 .etivaz-bloc:hover .etivaz-image {
-	filter: grayscale(80%);
+  filter: grayscale(80%);
 }
 
 .etivaz-bloc .etivaz-image {
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .etivaz-bloc .etivaz-image.hauteur {
-	background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .etivaz-bloc:hover header {
-	background-color: #C08F61;
-	color: #fff;
+  background-color: #c08f61;
+  color: #fff;
 }
 
 .etivaz-bloc a {
-	display: block;
+  display: block;
 }
 
 .etivaz-carre {
-    padding-bottom: 100%;
+  padding-bottom: 100%;
 }
 
 /*---------Miniatures-----------
@@ -56,100 +56,127 @@ présenté en frise
 */
 
 .etivaz-miniature {
-    width: calc(16.66% - 2em - 1px);
-    border-left: 1px solid rgb(227, 217, 195);
+  width: calc(16.66% - 2em - 1px);
+  border-left: 1px solid rgb(227, 217, 195);
 }
 
 .etivaz-miniature:last-child {
-	width: calc(16.66% - 2em - 2px);
+  width: calc(16.66% - 2em - 2px);
 }
 
 .etivaz-miniature:hover .etivaz-miniature-image {
-	filter: grayscale(80%);
+  filter: grayscale(80%);
 }
 
 .etivaz-miniature:hover header {
-	background-color: #C08F61;
-	color: #fff;
+  background-color: #c08f61;
+  color: #fff;
 }
 
 .etivaz-miniature-image {
-	background-size: cover;
-	background-position-x: center;
-	transition: all .5s ease 0s;
+  background-size: cover;
+  background-position-x: center;
+  transition: all 0.5s ease 0s;
 }
 
 .etivaz-miniature header {
-    padding: 1em;
-	background-color: #fff;
-	height: 50px;
-	transition: all 1s ease 0s;
+  padding: 1em;
+  background-color: #fff;
+  height: 50px;
+  transition: all 1s ease 0s;
 }
 
 /*---------étiquette-----------*/
 
 .etivaz-etiquette:nth-child(4n) {
-	border-right: 1px solid rgb(227, 217, 195);
+  border-right: 1px solid rgb(227, 217, 195);
 }
 
 /*--------------un-------------*/
 
 .etivaz-un .etivaz-image {
-    overflow: hidden;
-    height: 240px;
-    text-align: center;
+  overflow: hidden;
+  height: 240px;
+  text-align: center;
 }
 
 .etivaz-un .etivaz-full-height img {
-    height: 100%;
-	width:auto;
+  height: 100%;
+  width: auto;
 }
 
 .etivaz-un {
-    width: calc(33.33% - 2em - 2px);
-    border-left: 1px solid rgb(227, 217, 195);
-    padding-top: 1em;
-    padding-bottom: 1em;
-	word-spacing: normal;
+  width: calc(33.33% - 2em - 2px);
+  border-left: 1px solid rgb(227, 217, 195);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  word-spacing: normal;
 }
 
 .etivaz-un h2 {
-	padding-top: 1em;
+  padding-top: 1em;
 }
 
 /*-------------deux------------*/
 
 .etivaz-deux {
-    width: calc(66.66% - 2em);
+  width: calc(66.66% - 2em);
 }
 
 .etivaz-deux header,
 .etivaz-deux article {
-	width: 66%;
-	display: inline-block;
+  width: 66%;
+  display: inline-block;
 }
 
 .etivaz-deux .etivaz-image {
-	width: 33%;
-	display: inline-block;
-	vertical-align: top;
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 /*---evenements------*/
 
 .donnees-even {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 1em;
-    font-family: hammersmithone;
-	text-align:left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1em;
+  font-family: hammersmithone;
+  text-align: left;
 }
 
 .donnees-even span {
-    padding: .2em .5em;
-    background: #FBECDE;
-    margin-top: .2em;
-    display: inline-block;
-	box-shadow: 0px 0px 4px 3px #cdc3b863;
+  padding: 0.2em 0.5em;
+  background: #fbecde;
+  margin-top: 0.2em;
+  display: inline-block;
+  box-shadow: 0px 0px 4px 3px #cdc3b863;
+}
+
+.podzimniAkceBloc {
+  display: flex;
+  width: 100%;
+}
+
+.podzimniAkceBloc > div {
+  flex: 1;
+  border: 1px solid rgb(227, 217, 195);
+  padding: 1em;
+}
+
+.podzimniAkceBloc > div > div {
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 3px #cdc3b863;
+  padding: 1em;
+  min-height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  .podzimniAkceBloc {
+    flex-direction: column;
+  }
+  .podzimniAkceBloc > div {
+    flex: 100%;
+  }
 }

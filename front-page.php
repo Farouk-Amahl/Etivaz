@@ -46,8 +46,8 @@ if($messageSpecial){
 
 
 </span>
-	<div class="etivaz-separateur"></div>
 
+	<div class="etivaz-separateur"></div>
 
 <?php 
 // naše podzimní akce
@@ -55,37 +55,9 @@ if($messageSpecial){
 	<div class="etivaz-separateur"></div>
 	<section class="etivaz-section">
 	<header>
-		<h1>Naše podzimní akce</h1>
+		<h1>Naše nadcházející akce</h1>
 	</header>
-	<div class="etivaz-separateur"></div>	
-<style>
-.podzimniAkceBloc {
-	display: flex;
-	width: 100%;
-}
-
-.podzimniAkceBloc > div {
-	flex: 1;
-  border: 1px solid rgb(227, 217, 195);
-  padding: 1em;
-}
-
-.podzimniAkceBloc > div > div {
-  background-color: #fff;
-  box-shadow: 0px 0px 4px 3px #cdc3b863;
-  padding: 1em;
-  min-height: 250px;
-}
-
-@media only screen and (max-width: 600px) {
-	.podzimniAkceBloc {
-		flex-direction: column;
-	}
-  .podzimniAkceBloc > div {
-		flex: 100%;
-  }
-}
-</style>
+	<div class="etivaz-separateur"></div>
 <div class="etivaz-wrap-bloc podzimniAkceBloc">
 	<div>
 		<div>
@@ -282,20 +254,8 @@ endwhile;
 wp_reset_postdata();
 ?>
 		--></div><!--etivaz-wrap-bloc-->
-	</section>
-	
-<!--
-	<div class="etivaz-separateur"></div>
-	
-	<section>
-		Cathering
-	</section>
--->
-	
-	
+	</section>	
 </div>
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>
 	
